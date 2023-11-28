@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./client/src/**/*.jsx"],
+  content: ["./client/src/**/*.tsx"],
   theme: {
     fontFamily: {
       sans: "Roboto",
