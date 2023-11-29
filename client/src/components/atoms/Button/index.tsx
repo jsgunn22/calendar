@@ -1,20 +1,4 @@
-type ButtonType =
-  | "primary"
-  | "secondary"
-  | "danger"
-  | "success"
-  | "warning"
-  | "neutral";
-
-type ButtonVariant = "default" | "alt" | "text";
-
-type ButtonSize = "sm" | "md";
-interface ButtonProps {
-  label: any;
-  btnType?: ButtonType;
-  btnVariant?: ButtonVariant;
-  btnSize?: ButtonSize;
-}
+import { ButtonProps } from "./button.interfaces";
 
 export default function Button({
   label,
@@ -105,7 +89,7 @@ export default function Button({
 
   return (
     <button
-      className={`py-3 px-4 text-h4 font-bold rounded-lg ${getButtonStyle()}`}
+      className={`py-3 px-4 text-h4 font-bold rounded-md ${getButtonStyle()}`}
     >
       {label}
     </button>
