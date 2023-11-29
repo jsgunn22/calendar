@@ -3,7 +3,7 @@ import Button from "./components/atoms/Button";
 function App() {
   return (
     <>
-      <Button />
+      <Button label="test" btnType="" btnVariant="text" />
     </>
   );
 }

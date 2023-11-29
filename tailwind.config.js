@@ -57,8 +57,8 @@ export default {
       opac: {
         neu: "#484a4b26",
         alt: "#fafbfb26",
-        pri: "#872EB826",
-        sec: "#2e94b926",
+        pri: "#2e94b926",
+        sec: "#872EB826",
         suc: "#2eb96e26",
         dan: "#fd595926",
         war: "#f0b77526",
