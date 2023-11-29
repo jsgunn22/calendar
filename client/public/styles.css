@@ -534,6 +534,19 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
+.bg-neu-7 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(123 127 128 / var(--tw-bg-opacity));
+}
+
+.bg-opac-neu {
+  background-color: #484a4b26;
+}
+
 .text-h1 {
   font-size: 32px;
   line-height: 40px;
@@ -541,5 +554,10 @@ video {
 
 .text-pri-5 {
   --tw-text-opacity: 1;
-  color: rgb(135 46 184 / var(--tw-text-opacity));
+  color: rgb(46 148 185 / var(--tw-text-opacity));
+}
+
+.text-neu-7 {
+  --tw-text-opacity: 1;
+  color: rgb(123 127 128 / var(--tw-text-opacity));
 }
